@@ -17,6 +17,7 @@
 5. **`zookeeper_check.sh`** : 주키퍼 서버 상태 체크하는 스크립트
 6. **`zookeeper_restart.sh`** : 주키퍼 서버 재시작 하는 스크립트
 7. **`swap_execution.sh`** : 각 서버 swap영역 할당하는 스크립트
+8. **`kafka_server_start.sh`** : 카프카 브로커 서버 시작하는 스크립트
 
 ## 실행 방법
 
@@ -47,6 +48,10 @@
 7. `swap_execution.sh` 바로 실행 가능
    ```sh
    ex) ./swap_execution.sh
+   ```
+8. `kafka_server_start.sh` 카프카 경로 넣어주기
+   ```sh
+   ex) ./kafka_server_start.sh /data/sy0218
    ```
 
 해당 스크립트 들은 실습 환경에서 편리한 개발을 도와주는 스크립트 모음 입니다.
